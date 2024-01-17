@@ -1,4 +1,4 @@
-import { getCountries, getSearchCountries } from "@/lib/api";
+import { getSearchCountries } from "@/lib/api";
 import { Suspense } from "react";
 
 import CountriesGrid from "@/components/CountriesGrid";
