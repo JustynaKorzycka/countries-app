@@ -1,18 +1,29 @@
-import { getAllCountries } from "@/lib/api";
+import { getCountries, getSearchCountries } from "@/lib/api";
 import { Suspense } from "react";
 
 import CountriesGrid from "@/components/CountriesGrid";
+import Search from "@/components/Search";
+import Select from "@/components/Select";
 
-const Countries = async () => {
- const allCountries = await getAllCountries();
- return <CountriesGrid countries={allCountries} />;
+const Countries = async ({ nameQuery, regionQuery }) => {
+ const selectedCountries = await getSearchCountries(nameQuery, regionQuery);
+ return <CountriesGrid countries={selectedCountries} />;
 };
 
-export default function Home() {
+export default function Home({ searchParams }) {
+ const nameQuery = searchParams?.name || "";
+ const regionQuery = searchParams?.region || "";
  return (
   <>
+   <div className="grid w-full grid-cols-2 justify-between  mb-10">
+    <Search />
+    <Select />
+   </div>
    <Suspense fallback={<p>Fetching countries...</p>}>
-    <Countries />
+    <Countries
+     nameQuery={nameQuery}
+     regionQuery={regionQuery}
+    />
    </Suspense>
   </>
  );
