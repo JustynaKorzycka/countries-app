@@ -22,7 +22,7 @@ const Search = () => {
  };
 
  return (
-  <div className="relative drop-shadow-md max-w-md ">
+  <div className="relative drop-shadow-md sm:max-w-md ">
    <label hidden>Search for a country</label>
    <input
     type="text"

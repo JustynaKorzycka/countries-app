@@ -20,7 +20,7 @@ export default function Home({ searchParams }) {
  const regionQuery = searchParams?.region || "";
  return (
   <>
-   <div className="grid w-full grid-cols-2 justify-between  mb-10">
+   <div className="grid w-full grid-cols-1 sm:grid-cols-2  justify-between  mb-10 gap-y-10">
     <Search />
     <Select />
    </div>
