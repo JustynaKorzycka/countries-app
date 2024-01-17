@@ -5,6 +5,7 @@ module.exports = {
   "./components/**/*.{js,ts,jsx,tsx,mdx}",
   "./app/**/*.{js,ts,jsx,tsx,mdx}",
  ],
+ darkMode: "class",
  theme: {
   extend: {
    screens: {
@@ -17,6 +18,8 @@ module.exports = {
    searchColor: "#848484",
    white: "#fff",
    lightGray: "#F2F2F2",
+   dark: "#202C36",
+   lightDark: "#2B3844",
   },
  },
  plugins: [],
