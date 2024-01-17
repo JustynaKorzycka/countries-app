@@ -10,6 +10,11 @@ const Countries = async ({ nameQuery, regionQuery }) => {
  return <CountriesGrid countries={selectedCountries} />;
 };
 
+export const metadata = {
+ title: "Find Country ",
+ description: "Where in the world?",
+};
+
 export default function Home({ searchParams }) {
  const nameQuery = searchParams?.name || "";
  const regionQuery = searchParams?.region || "";
