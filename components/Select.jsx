@@ -22,7 +22,7 @@ const Select = () => {
  return (
   <div className="h-full justify-self-end max-w-48 ">
    <select
-    className="rounded-md h-full w-48  py-5 px-6 text-sm cursor-pointer "
+    className="rounded-md h-full w-48  py-5 px-6 text-sm cursor-pointer dark:bg-lightDark"
     onChange={handleOnSelected}
     defaultValue={"all"}
    >

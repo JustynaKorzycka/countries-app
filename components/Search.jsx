@@ -22,11 +22,11 @@ const Search = () => {
  };
 
  return (
-  <div className="relative drop-shadow-md max-w-md">
+  <div className="relative drop-shadow-md max-w-md ">
    <label hidden>Search for a country</label>
    <input
     type="text"
-    className="w-full block rounded-md py-5 px-16 text-sm"
+    className="w-full block rounded-md py-5 px-16 text-sm dark:bg-lightDark"
     placeholder="Search for a country..."
     onChange={handleOnSearch}
     defaultValue={searchParams.get("query")?.toString()}

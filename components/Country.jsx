@@ -6,7 +6,7 @@ import DescriptionElement from "./DescriptionElement";
 const Country = ({ country }) => {
  if (country) {
   return (
-   <div className="flex flex-col w-64 bg-white drop-shadow-md hover:drop-shadow-2xl justify-self-center  rounded-md">
+   <div className="flex flex-col w-64 bg-white dark:bg-lightDark drop-shadow-md hover:drop-shadow-2xl justify-self-center  rounded-md">
     <Link
      href={`/${country.name}`}
      className="relative w-full h-40 "
