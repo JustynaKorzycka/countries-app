@@ -47,3 +47,4 @@ Users should be able to:
 - fix href in border links
 - change styles in layout component
 - improving the appearance of the page with an error and notFound
+- fix bug with go bach to main page (delete filters in url)
