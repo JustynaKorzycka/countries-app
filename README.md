@@ -44,5 +44,6 @@ Users should be able to:
 
 ## Continued development
 
+- fix href in border links
 - change styles in layout component
 - improving the appearance of the page with an error and notFound
