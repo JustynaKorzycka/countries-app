@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
  return (
   <html lang="en">
    <body
-    className={`${nunioSans.className} bg-lightGray dark:bg-dark text-primary dark:text-white `}
+    className={`${nunioSans.className} bg-lightGray dark:bg-dark text-primary dark:text-white`}
    >
     <ThemeProvider
      attribute="class"
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
      enableSystem
     >
      <Header />
-     <main className="container py-6 sm:py-14">{children}</main>
+     <main className="container py-6  sm:py-10">{children}</main>
     </ThemeProvider>
    </body>
   </html>

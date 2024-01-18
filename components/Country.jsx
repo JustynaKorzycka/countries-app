@@ -16,7 +16,7 @@ const Country = ({ country }) => {
       alt=""
       fill
       style={{ objectFit: "cover" }}
-      className="rounded-md"
+      className="rounded-t-md"
      />
     </Link>
     <div className="p-6 pb-9 flex flex-col min-h-44">
