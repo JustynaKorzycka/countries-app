@@ -4,23 +4,13 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [Continued development](#continued-development)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
-### The challenge
+## The challenge
 
 Users should be able to:
 
@@ -31,19 +21,17 @@ Users should be able to:
 - Click through to the border countries on the detail page
 - Toggle the color scheme between light and dark mode
 
-### Screenshot
+## Screenshot
 
 ![Desktop light mode](image.png)
 ![Desktop dark mode](image-1.png)
 ![Country details](image-2.png)
 
-### Links
+## Links
 
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
-
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -54,7 +42,7 @@ Users should be able to:
 - [Next.js](https://nextjs.org/) - React framework
 - [Tailwindcss](https://tailwindcss.com/) - For styles
 
-### Continued development
+## Continued development
 
 - change styles in layout component
 - improving the appearance of the page with an error and notFound
