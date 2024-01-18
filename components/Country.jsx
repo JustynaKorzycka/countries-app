@@ -4,11 +4,12 @@ import Link from "next/link";
 import DescriptionElement from "./DescriptionElement";
 
 const Country = ({ country }) => {
+ const linkName = country.name.replace(/ /g, "%20");
  if (country) {
   return (
    <div className="flex flex-col w-64 bg-white dark:bg-lightDark drop-shadow-md hover:drop-shadow-2xl justify-self-center  rounded-md">
     <Link
-     href={`/country/${country.name}`}
+     href={`/country/${linkName}`}
      className="relative w-full h-40 "
     >
      <Image
