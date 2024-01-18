@@ -5,7 +5,7 @@ import { getCountry } from "@/lib/api";
 import Image from "next/image";
 import { Suspense } from "react";
 
-const CountryPage = async ({ params }) => {
+const SelectCountryPage = async ({ params }) => {
  const countryData = await getCountry(params.countrySlug);
  const {
   name,
@@ -81,4 +81,4 @@ const CountryPage = async ({ params }) => {
  );
 };
 
-export default CountryPage;
+export default SelectCountryPage;
